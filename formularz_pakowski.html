@@ -6,11 +6,15 @@
      <title> Formularz </title>
     </head>
   <body>
+   <body bgcolor="#E8FC9D"> 
+   <center><h1> Formularz o prace w sklepie z butami</h1></center> 
+
 <form>
 <P> 
 Imię: <INPUT NAME=imie SIZE=20> 
+Drugie Imię: <INPUT NAME=drugie_imie SIZE=20>
 Nazwisko: <INPUT NAME=nazwisko SIZE=20>  
-Klasa: <INPUT NAME=klasa SIZE=5>
+
 </P>
 <br> 
 <p> 
@@ -19,35 +23,17 @@ Płeć:
 <INPUT TYPE="radio" NAME="plec" VALUE="mężczyzna"> Mężczyzna
 </p> 
 <br>
-<P> 
-Do szkoły dojeżdżam: 
-<SELECT NAME=dojazd> 
-<OPTION VALUE=tramwaj>tramwajem 
-<OPTION VALUE=autobus>autobusem 
-<OPTION VALUE=samochod>samochodem prywatnym 
-<OPTION VALUE=pieszo>pieszo 
-<OPTION VALUE=inne>żadne z powyższych 
-</SELECT>  
-</P>
-<br>
-<p>
-Ulubione potrawy:
-<input type="checkbox" name="potrawa" value="piz"> pizza
-<input type="checkbox" name="potrawa" value="sch"> schabowy 
-<input type="checkbox" name="potrawa" value="lod"> lody 
-<input type="checkbox" name="potrawa" value="bur"> burger
-</p>
- <br>
-<p>
-Numrer telefonu:
-<input type="tel">
-</p>
-<br>
-
-
-
-
-</form>
- <br>
+               <TD width="300" >  
+<center><font size="5" color="red"><b>Podaj środek lokomacji dojazdu do 
+pracy</b></font></center><br> 
+                            <center>  <select> 
+                                 <option value="autobus">Autobus</option> 
+                                 <option value="motocykl">Motocykl</option> 
+                                 <option value="prom">Prom</option> 
+                                 <option value="samolot">Samolot</option> 
+                                 <option value="lodz">Łódź podwodna</option> 
+                                 <option value="kajak">Kajak</option> 
+                              </select> </center> 
+ 
 
 <A HREF="pakowski.html"> wróć </A> <br>
